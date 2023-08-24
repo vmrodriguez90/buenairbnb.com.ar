@@ -1,6 +1,6 @@
 # Buen Airbnb - Gestión Profesional de Propiedades en Argentina
 
-![Buen Airbnb Logo](link-to-your-logo.png)
+![Buen Airbnb Logo](https://www.buenairbnb.com.ar/assets/logo.png)
 
 ## Descripción
 
@@ -20,11 +20,11 @@ No se requiere instalación para acceder a nuestros servicios de administración
 
 ## Preguntas Frecuentes
 
-Consulta nuestras [Preguntas Frecuentes](link-to-faq-section) para obtener respuestas a las preguntas más comunes sobre nuestros servicios.
+Consulta nuestras [Preguntas Frecuentes](https://www.buenairbnb.com.ar/faq.html) para obtener respuestas a las preguntas más comunes sobre nuestros servicios.
 
 ## Contacto
 
-Para obtener más información o para comenzar a trabajar con nosotros, visita nuestro sitio web [buenairbnb.com](https://www.buenairbnb.com) o contáctanos a través de [correo electrónico](mailto:info@buenairbnb.com) o [número de teléfono](tel:+123456789).
+Para obtener más información o para comenzar a trabajar con nosotros, visita nuestro sitio web [buenairbnb.com.ar](https://www.buenairbnb.com.ar) o contáctanos a través de [correo electrónico](mailto:buenairbnb@gmail.com) o [número de teléfono](tel:+5491165233257).
 
 ---
 
