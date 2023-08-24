@@ -1,0 +1,32 @@
+{
+  "name": "buenairbnb.com.ar",
+  "version": "1.0.0",
+  "description": "Buen Airbnb",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss css/input.scss public/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" ",
+    "start": "concurrently \"node index.js\" \"npm run watch-css\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmrodriguez90/buenairbnb.com.ar.git"
+  },
+  "keywords": [
+    "airbnb"
+  ],
+  "author": "Victor Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmrodriguez90/buenairbnb.com.ar/issues"
+  },
+  "homepage": "https://github.com/vmrodriguez90/buenairbnb.com.ar#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "express": "^4.18.2"
+  }
+}
