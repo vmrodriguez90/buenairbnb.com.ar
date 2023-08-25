@@ -9,10 +9,8 @@
     <meta name="description" content="Buen Airbnb - Tu Hogar, Nuestro cuidado" />
     <meta name="keywords" content="airbnb, buenos aires, buenos, aires, argentina" />
     <meta name="author" content="Buen Airbnb" />
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
-    <!--Replace with your tailwind.css once created-->
+    <link rel="stylesheet" href="./css/tailwind.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
     <style>
         .gradient {
           background: linear-gradient(90deg, #286A7C 0%, #9CE7FC 100%);
@@ -43,21 +41,19 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="./faq.html">Preguntas Frecuentes</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-            </li>
-            <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="./about.html">Sobre Nosotros</a>
             </li>
           </ul>
-          <button
+          <a
             id="navAction"
+            href="#pricing"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
-            Action
-          </button>
+          Selecciona Plan
+        </a>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -104,38 +100,46 @@
     </div>
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Sobre Nosotros
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              El Equipo
-            </h3>
-            <p class="text-gray-600 mb-8">
-              Somos un equipo apasionado por brindar soluciones de administración de propiedades en Buenos Aires, Argentina. Con años de experiencia en la industria, hemos ayudado a numerosos propietarios a maximizar sus ingresos y ofrecer experiencias excepcionales a los huéspedes.
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img src="./assets/team.svg" />
-          </div>
-        </div>
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img src="./assets/travel.svg"/>
-          </div>
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <div class="align-middle">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Que es lo que hacemos
-              </h3>
-              <p class="text-gray-600 mb-8">
-                En BuenAirbnb, nos encargamos de todos los aspectos de la gestión de tu propiedad en plataformas como Airbnb. Desde la creación y optimización de publicaciones hasta la atención personalizada a los huéspedes, limpieza, mantenimiento y optimización de precios, estamos aquí para facilitar tu experiencia como propietario.
+        <div class="flex md:justify-between  md:flex-row flex-col">
+          <div class="flex-1 flex-col">
+            <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
+              Pone tu Hogar en Airbnb
+            </h2>
+            <div class="w-full mb-4">
+              <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+            </div>
+            <div class="py-5 text-3xl font-bold text-center text-black">
+              Podes ganar...
+            </div>
+            <h2 class="w-full font-bold leading-tight text-center text-black" style="font-size: 6rem; font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;">
+              U$D <span id="prize">500</span>
+            </h2>
+            <button class=" w-4 mx-auto  block hover:underline text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <div class="inline-block px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: #286A7C; stroke-width: 4; overflow: visible;">
+                  <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                </svg>
+              </div>
+              Buenos Aires
+              <br/>
+              Departamento - 2 ambientes
+            </button>
+            
+          </button>
+            <div class="text-center">
+              <p class="text-black font-bold">
+                Precio por <span id="nights">8</span> noches
+              </p>
+              <input type="range" min="1" max="30" value="10" class="slider w-64 inline-block p-4" id="nightsRange">
+            </div>
+            <div class="text-center py-2">
+              <p class="text-gray-500 text-sm">
+                * El precio por noche depende del departamento y ubicación 
               </p>
             </div>
+          </div>
+          <div class="flex-1 flex-col">
+            <img src="./assets/mapa.png" alt="Mapa Buenos Aires" title="Mapa Buenos Aires" class="w-full" />
           </div>
         </div>
       </div>
@@ -289,10 +293,10 @@
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Preguntas Frecuentes</a>
+                <a href="./faq.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Preguntas Frecuentes</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Acerca de Nosotros</a>
+                <a href="./about.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Acerca de Nosotros</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="https://wa.me/5491165233257" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contacto</a>
@@ -349,9 +353,32 @@
       });
     </script>
     <script>
-      /*Toggle dropdown list*/
-      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
 
+      const speed = 200;
+      const pricePerNight = 40;
+      function animatePrice() {
+            let nights = Number($("#nightsRange").val());
+            const value = nights * pricePerNight;
+            const data = Number($('#prize').text());
+            const time = value / speed;
+            if(data < value) {
+              $('#prize').text(Math.ceil(data + time));
+              setTimeout(animatePrice, 1);
+            } else {
+              $('#prize').text(value);
+            }
+      }
+      $(function() {
+        let nights = Number($("#nightsRange").val());
+        $('#nights').text(nights);
+        $('#prize').text(nights*pricePerNight);
+        $("#nightsRange").change(function () {
+          let value = $(this).val();
+          $('#nights').text(value);
+          animatePrice();
+        });
+        
+      })
       var navMenuDiv = document.getElementById("nav-content");
       var navMenu = document.getElementById("nav-toggle");
 
