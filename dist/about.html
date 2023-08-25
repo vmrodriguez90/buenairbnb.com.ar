@@ -9,7 +9,7 @@
     <meta name="description" content="Buen Airbnb - Tu Hogar, Nuestro cuidado" />
     <meta name="keywords" content="airbnb, buenos aires, buenos, aires, argentina" />
     <meta name="author" content="Buen Airbnb" />
-    <link rel="stylesheet" href="./css/tailwind.min.css" />
+    <link rel="stylesheet" href="./css/tailwind.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <style>
         .gradient {
@@ -59,7 +59,7 @@
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
     <!--Hero-->
-    <div class="pt-24">
+    <div class="pt-24 relative z-50">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
@@ -69,7 +69,7 @@
           <p class="leading-normal text-2xl mb-8">
             Descubre una experiencia única en administración de propiedades en Buenos Aires, Argentina
           </p>
-          <a href="#pricing" class="pointer-events-auto mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="index.html#calculator" class="pointer-events-auto mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Ve cuanto puedes ganar
           </a>
         </div>
@@ -79,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="relative -mt-12 lg:-mt-24">
+    <div class="relative -mt-12 lg:-mt-24 z-1">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -99,165 +99,51 @@
       </svg>
     </div>
     <section class="bg-white border-b py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Sobre Nosotros
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              El Equipo
-            </h3>
-            <p class="text-gray-600 mb-8">
-              Somos un equipo apasionado por brindar soluciones de administración de propiedades en Buenos Aires, Argentina. Con años de experiencia en la industria, hemos ayudado a numerosos propietarios a maximizar sus ingresos y ofrecer experiencias excepcionales a los huéspedes.
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img src="./assets/team.svg" />
-          </div>
-        </div>
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img src="./assets/travel.svg"/>
-          </div>
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <div class="align-middle">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Que es lo que hacemos
-              </h3>
-              <p class="text-gray-600 mb-8">
-                En BuenAirbnb, nos encargamos de todos los aspectos de la gestión de tu propiedad en plataformas como Airbnb. Desde la creación y optimización de publicaciones hasta la atención personalizada a los huéspedes, limpieza, mantenimiento y optimización de precios, estamos aquí para facilitar tu experiencia como propietario.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Inside the "container" -->
+<div class="container mx-auto p-8 text-black">
+      <h2 class="text-2xl font-semibold mb-4">Sobre Nosotros</h2>
+      <p class="mb-4">¡Bienvenidos a Buen Airbnb!</p>
+      
+      <p class="mb-6">Somos una empresa apasionada por brindar soluciones de administración de propiedades en Buenos Aires, Argentina. Con experiencia en la industria, hemos ayudado a numerosos propietarios a maximizar sus ingresos y ofrecer experiencias excepcionales a los huéspedes.</p>
+      
+      <h3 class="text-xl font-semibold mb-2">Nuestra Historia</h3>
+      <p class="mb-6">Buen Airbnb fue fundado con el objetivo de hacer que la administración de propiedades sea sin complicaciones y altamente rentable para los propietarios. Desde nuestros humildes comienzos, hemos crecido para convertirnos en un equipo dedicado y confiable en el campo de la gestión de propiedades.</p>
+      
+      <h3 class="text-xl font-semibold mb-2">Nuestra Misión</h3>
+      <p class="mb-6">Nuestra misión es brindar un servicio de gestión de propiedades que se distinga por su excelencia y atención al detalle. Nos enorgullece ayudar a los propietarios a liberarse del estrés de la administración de propiedades mientras maximizan sus ingresos y proporcionan experiencias inolvidables a los huéspedes.</p>
+      
+      <h3 class="text-xl font-semibold mb-2">Equipo de Expertos</h3>
+      <p class="mb-6">Nuestro equipo está compuesto por profesionales apasionados y altamente capacitados en la administración de propiedades. Desde la optimización de listados hasta la atención al huésped y la gestión de mantenimiento, cada miembro de nuestro equipo está dedicado a brindar resultados excepcionales.</p>
+      <section class="flex md:flex-row justify-center flex-col p-2 my-6">
+        <!-- Team Member 1 -->
+        <a href="https://www.linkedin.com/in/vmrodriguez/" target="_blank" class="block bg-white shadow-lg p-6 rounded-lg md:w-1/4 md:mr-4 md:mb-0 mb-4">  
+          <img src="assets/victor.jpg" alt="Victor Rodriguez" class="w-32 h-32 rounded-full mx-auto mb-4" >
+          <h3 class="text-lg font-semibold mb-2  w-full text-center">Victor Manuel Rodriguez</h3>
+          <p class="text-gray-600  w-full text-center">Nomade Digital <br/> Programador</p>
+      
+        </a>
+        <!-- Team Member 2 -->
+        <a href="https://www.linkedin.com/in/branko-emmanuel-silva/" target="_blank" class="block bg-white shadow-lg p-6 rounded-lg md:w-1/4">
+            <img src="assets/branko.jpg" alt="Branko Silva" class="w-32 h-32 rounded-full mx-auto mb-4" >
+            <h3 class="text-lg font-semibold mb-2 w-full text-center">Branko Silva</h3>
+            <p class="text-gray-600  w-full text-center">Licenciado en Turismo <br/> Tecnico en Comercio Exterior</p>
+        </a>
+      </section>
+    
+      <h3 class="text-xl font-semibold mb-2">Enfoque Local</h3>
+      <p class="mb-6">Con un profundo conocimiento del mercado local, entendemos las dinámicas cambiantes de la industria de alquileres en Argentina. Utilizamos este conocimiento para proporcionar estrategias personalizadas que aseguran el éxito de tu propiedad.</p>
+      
+      <h3 class="text-xl font-semibold mb-2">Más Que un Socio</h3>
+      <p class="mb-6">En Buen Airbnb, no solo somos tu socio en la administración de propiedades, sino también en tu éxito. Trabajamos mano a mano contigo para garantizar que tus objetivos se cumplan y que tus huéspedes tengan experiencias inolvidables.</p>
+      
+      <p class="mb-4">¡Gracias por considerarnos como tu elección para la gestión de propiedades!</p>
+      
+      <blockquote class="border-l-4 pl-4 border-blue-500 italic">
+          "Nuestro compromiso es tu tranquilidad y éxito como propietario." - Equipo de Buen Airbnb
+      </blockquote>
+    </div>  
     </section>
-    <section class="bg-gray-100 py-8" id="pricing">
-      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Nuestros Planes
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-          <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white">
-            <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center text-black">
-                Plan Básico
-              </div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold text-black">
-                <li class="border-b py-4">Creación y Optimización de Publicación</li>
-                <li class="border-b py-4">Gestión de las Reservas</li>
-                <li class="border-b py-4">Evaluación de Huéspedess</li>
-                <li class="border-b py-4">Soporte al Huésped en la Plataforma</li>
-                <li class="border-b py-4">Informe Mensual de Desempeño</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                U$D 35 
-                <span class="text-base">por unica vez</span>
-              </div>
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                15% 
-                <span class="text-base">sobre ganancia mensual</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Seleccionar el Plan
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white sm:-shadow-lg">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-black">
-              <div class="w-full p-8 text-3xl font-bold text-center">Plan Estándar</div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold text-black">
-                <li class="border-b py-4">Todo lo incluido en el Plan Básico</li>
-                <li class="border-b py-4">Recepción de huéspedes</li>
-                <li class="border-b py-4">Coordinación con el Personal de Limpieza</li>
-                <li class="border-b py-4">Reponer artículos básicos</li>
-                <li class="border-b py-4">Optimización de Ingresos (Precios Dinámicos)</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                U$D 65 
-                <span class="text-base">por unica vez</span>
-              </div>
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                20% 
-                <span class="text-base">sobre ganancia mensual</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Seleccionar el Plan
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white">
-            <div class="flex-1 bg-white text-black rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center ">
-                Plan Premium             
-              </div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold text-black">
-                <li class="border-b py-4">Todo lo incluido en el Plan Estándar</li>
-                <li class="border-b py-4">Servicios Premium para Huéspedes</li>
-                <li class="border-b py-4">Fotografía Profesional y Mejora de Publicación</li>
-                <li class="border-b py-4">Mantenimiento y Reparaciones</li>
-                <li class="border-b py-4">Limpieza y Lavanderia</li>
-                <li class="border-b py-4">Gestión de Opiniones de Huéspedes</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                U$D 100
-                <span class="text-base">por unica vez</span>
-              </div>
-              <div class="w-full pt-6 text-3xl font-bold text-center text-black">
-                25% 
-                <span class="text-base">sobre ganancia mensual</span>
-              </div>              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Seleccionar el Plan
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Change the colour #f8fafc to match the previous section colour -->
-    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
-            <path
-              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
-            ></path>
-          </g>
-          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-              <path
-                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                opacity="0.100000001"
-              ></path>
-              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg>
+
     <section class="container mx-auto text-center py-6 mb-12">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Contactanos

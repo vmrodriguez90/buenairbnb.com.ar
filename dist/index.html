@@ -9,7 +9,7 @@
     <meta name="description" content="Buen Airbnb - Tu Hogar, Nuestro cuidado" />
     <meta name="keywords" content="airbnb, buenos aires, buenos, aires, argentina" />
     <meta name="author" content="Buen Airbnb" />
-    <link rel="stylesheet" href="./css/tailwind.min.css" />
+    <link rel="stylesheet" href="./css/tailwind.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <style>
         .gradient {
@@ -58,8 +58,7 @@
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-    <!--Hero-->
-    <div class="pt-24">
+    <div class="pt-24 relative z-50">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
@@ -69,7 +68,7 @@
           <p class="leading-normal text-2xl mb-8">
             Descubre una experiencia única en administración de propiedades en Buenos Aires, Argentina
           </p>
-          <a href="#pricing" class="pointer-events-auto mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="index.html#calculator" class="pointer-events-auto mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Ve cuanto puedes ganar
           </a>
         </div>
@@ -79,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="relative -mt-12 lg:-mt-24">
+    <div class="relative -mt-12 lg:-mt-24 z-1">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -98,7 +97,7 @@
         </g>
       </svg>
     </div>
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8" id="calculator">
       <div class="container max-w-5xl mx-auto m-8">
         <div class="flex md:justify-between  md:flex-row flex-col">
           <div class="flex-1 flex-col">
@@ -114,7 +113,7 @@
             <h2 class="w-full font-bold leading-tight text-center text-black" style="font-size: 6rem; font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;">
               U$D <span id="prize">500</span>
             </h2>
-            <button class=" w-4 mx-auto  block hover:underline text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <button class="w-5 mx-auto  block hover:underline text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               <div class="inline-block px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: #286A7C; stroke-width: 4; overflow: visible;">
                   <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
