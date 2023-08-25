@@ -20,8 +20,7 @@
     },
     "scripts": {
         "del:js": "rimraf tailwind.config.js",
-        "create:js": "./node_modules/.bin/tailwind init tailwind.config.js",
-        "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
-        "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css"
-    }
+        "create:js": "npx tailwindcss init tailwind.config.js",
+        "dev:css": "npx tailwindcss build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css"
+        }
 }

@@ -1,11 +1,10 @@
 module.exports = {
   theme: {
-    // Some useful comment
-  },
-  variants: {
-    // Some useful comment
-  },
-  plugins: [
-    // Some useful comment
-  ]
+    extend: {
+      // Adds a new breakpoint in addition to the default breakpoints
+      screens: {
+        '3xl': '1600px',
+      }
+    }
+  }
 }
